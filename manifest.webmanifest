@@ -1,1 +1,11 @@
-{"ok":true}
+{
+  "name": "Tuico da Cenoura",
+  "short_name": "Tuico",
+  "description": "Jogo mobile do Tuico mordendo uma cenoura gigante e desbloqueando trajes por recordes.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f7f0d8",
+  "theme_color": "#7bc043"
+}
