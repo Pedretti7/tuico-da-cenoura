@@ -1,4 +1,4 @@
-const CACHE='tuico-da-cenoura-v6';
+const CACHE='tuico-da-cenoura-v7';
 const ASSETS=[
   "index.html",
   "manifest.webmanifest",
@@ -11,7 +11,8 @@ const ASSETS=[
   "skins/snowboard.webp.b64",
   "skins/praia.webp.b64",
   "skins/astronauta.webp.b64",
-  "skins/comandante.webp.b64"
+  "skins/comandante.webp.b64",
+  "skins/ram.webp.b64"
 ];
 self.addEventListener('install',event=>{event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(ASSETS)).then(()=>self.skipWaiting()))});
 self.addEventListener('activate',event=>{event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key!==CACHE).map(key=>caches.delete(key)))).then(()=>self.clients.claim()))});
