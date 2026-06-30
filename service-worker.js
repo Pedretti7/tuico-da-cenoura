@@ -1,4 +1,4 @@
-const CACHE='tuico-da-cenoura-v11';
+const CACHE='tuico-da-cenoura-v12';
 const ASSETS=[
   "index.html",
   "manifest.webmanifest",
