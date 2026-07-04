@@ -1,4 +1,4 @@
-const CACHE='tuico-da-cenoura-v12';
+const CACHE='tuico-da-cenoura-v13';
 const ASSETS=[
   "index.html",
   "manifest.webmanifest",
@@ -15,8 +15,10 @@ const ASSETS=[
   "skins/samurai.webp.b64",
   "skins/pirata.webp.b64",
   "skins/cowboy.webp.b64",
+  "skins/futebol.png.b64",
   "skins/rei.webp.b64",
   "skins/dj.webp.b64",
+  "skins/tony.png.b64",
   "skins/ram.webp.b64",
   "skins/dragaozinho.webp.b64",
   "skins/cyberpunk.webp.b64"
