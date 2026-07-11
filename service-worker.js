@@ -1,4 +1,4 @@
-const CACHE='tuico-da-cenoura-v14';
+const CACHE='tuico-da-cenoura-v15';
 const ASSETS=[
   "index.html",
   "manifest.webmanifest",
@@ -22,6 +22,7 @@ const ASSETS=[
   "skins/ram.webp.b64",
   "skins/dragao-fogo.webp.b64",
   "skins/dragaozinho.webp.b64",
+  "skins/minecraft.webp.b64",
   "skins/cyberpunk.webp.b64"
 ];
 self.addEventListener('install',event=>{event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(ASSETS)).then(()=>self.skipWaiting()))});
