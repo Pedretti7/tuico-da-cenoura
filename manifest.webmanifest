@@ -1,11 +1,44 @@
 {
+  "id": "./",
   "name": "Tuico da Cenoura",
   "short_name": "Tuico",
-  "description": "Jogo mobile do Tuico mordendo uma cenoura gigante e desbloqueando trajes por recordes.",
+  "description": "Ajude Tuico a devorar a cenoura gigante sem bater nas ramas!",
+  "lang": "pt-BR",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
+  "display_override": [
+    "standalone",
+    "minimal-ui"
+  ],
   "orientation": "portrait",
   "background_color": "#f7f0d8",
-  "theme_color": "#7bc043"
+  "theme_color": "#7bc043",
+  "categories": [
+    "games",
+    "entertainment"
+  ],
+  "icons": [
+    {
+      "src": "icons/icon-180.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
 }
